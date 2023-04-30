@@ -1,0 +1,123 @@
+.body {
+  text-align: center;
+  padding: 70px 50px;
+  /* background: #0D1A29; */
+  background : linear-gradient(rgb(13, 26, 41), rgba(13, 26, 41, 0.86));
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-family: system-ui;
+  padding: 0;
+  margin: 0;
+  height: 50vh;
+  box-sizing: border-box;
+}
+
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #48C8FF;
+  padding-bottom: 30px;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+#timer div span {
+  color: #B1CDF1;
+  display: block;
+  font-size: .35em;
+  font-weight: 400;
+}
+.map{
+    margin-top: 30px;
+    width: 100% !important;
+    padding: 0 !important;
+}
+.map iframe{
+  height: 70vh;
+    width: 100% !important;
+    padding-top: 10px !important;
+}
+
+.row{
+  margin:0 !important;
+}
+
+
+.hero-image {
+    height: 100%;
+}
+
+/*This is where you place your image url. Most images should work by just replacing the url. */
+.hero-image-container {
+    height: 70vh;
+    background-image: linear-gradient(rgba(13, 26, 41, 0.662), rgb(13, 26, 41)), url('./img1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    height: 90%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 3em;
+    /* background: linear-gradient(0.25turn, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)); */
+    padding: 10px 10px 15px 10px;
+    letter-spacing: .3em;
+}
+
+.hero-p {
+    font-size: 1em;
+    letter-spacing: .3em;
+    padding: 10px;
+    max-width: 550px;
+    /* background: linear-gradient(0.25turn, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)); */
+
+}
+
+.hero-butt:hover {
+    padding: 20px 30px;
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 2em;
+    }
+
+    .hero-p {
+        font-size: .8em;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 1.5em;
+    }
+
+    .hero-p {
+        padding: 10px 20px 10px 20px;
+        font-size: .7em;
+    }
+
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
